@@ -177,7 +177,7 @@ export async function fetchManagementSheetData() {
   return { rows, parsed, sheetTitle };
 }
 
-const MODEL = 'gemini-2.0-flash';
+const MODEL = 'gemini-1.5-flash';
 
 /**
  * @param {string} apiKey

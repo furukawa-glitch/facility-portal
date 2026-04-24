@@ -78,7 +78,7 @@ export const NEAR_MISS_MONTH_CATEGORY_ORDER = Object.freeze([
   '分類なし',
 ]);
 
-const MODEL = 'gemini-2.0-flash';
+const MODEL = 'gemini-1.5-flash';
 
 /**
  * Gemini generateContent の失敗を、画面上で「文字化け／英語だらけ」と誤解されないよう日本語中心にまとめる。

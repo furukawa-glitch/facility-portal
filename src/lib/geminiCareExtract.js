@@ -1,4 +1,4 @@
-const MODEL = 'gemini-2.0-flash';
+const MODEL = 'gemini-1.5-flash';
 
 const SYSTEM_PROMPT = `あなたは有料老人ホームの記録入力支援です。スタッフの日本語の発話（文字起こし）から、明示的に言及された項目だけをJSONにします。推測で埋めないでください。言及がなければそのキーは省略してください。
 

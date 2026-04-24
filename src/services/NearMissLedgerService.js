@@ -49,7 +49,7 @@ const LS = {
   ledgerSheetWriteLast: 'carelink_ledger_sheet_write_last_v1',
 };
 
-const MODEL = 'gemini-2.0-flash';
+const MODEL = 'gemini-1.5-flash';
 
 function readJson(key, fallback) {
   try {
